@@ -5,7 +5,7 @@
 
 Submitted by: **Kimly Tor**
 
-Time spent: **8** hours spent in total
+Time spent: **9** hours spent in total
 
 ## User Stories
 
@@ -42,11 +42,13 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** [Android Studio is my first platform for app development. Therefore, I cannot compare or contrast it with other platforms but for the Android app development, Android Studio is well organized and easy to debug. It's probably the best plateform out there.]
+**Answer:** [Android Studio is my first platform to do an app development. Therefore, I cannot compare or contrast it with other platforms but for the Android app development, Android Studio is well organized and easy to debug. It's probably the best plateform out there.]
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** [].
+**Answer:** [ArrayAdapter enables develpers to reuse some features in ListView with new data. To do so ArrayAdapter uses the convertView as a way of reusing View objects. The ListView can send the new data to the ArrayAdapter wihtout creating new object each time the ArrayAdapter wants to display a new item.]
+
+recycling old View objects that are no longer being used. In this way, the ListView can send the Adapter old, "recycled" view objects that are no longer being displayed instead of instantiating an entirely new object each time the Adapter wants to display a new list item.]
 
 ## Notes
 
