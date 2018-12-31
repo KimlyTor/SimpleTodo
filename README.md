@@ -50,10 +50,9 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 
 
-## Notes
-
-Describe any challenges encountered while building the app.
-
+## NotesDebug
+My app kept crashing when I clicked on the save button. I learn to debug the problem by using the Debug app on Android Studio. It showed that the cause of the crash was in the activity-edit-item.xml where the android:id="@+id/etItemText" was defined twice. Therefore, the bug was fixed by deleting one of them.
+       
 ## License
 
     Copyright [2018] [Kimly Tor]
